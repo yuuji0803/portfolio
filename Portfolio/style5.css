@@ -1,0 +1,42 @@
+.hobby {
+  height: 100vh;
+  width: 100vw;
+  /* margin-bottom: 0; */
+}
+
+h6 {
+  font-size: 2rem;
+  text-align: justify;
+  background: linear-gradient(transparent 70%, #ff99ab 80%);
+  position: absolute;
+  top: 100px;
+  left: 40px;
+}
+.sports {
+  font-size: 1.5rem;
+  text-align: justify;
+  position: absolute;
+  top: 250px;
+  left: 40px;
+  text-align: justify;
+}
+.exercise {
+  background-color: yellow;
+}
+
+@media (max-width: 600px) {
+  h6 {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 10px;
+  }
+  .hobby {
+    width: 100%;
+  }
+  .sports {
+    font-size: 1rem;
+    position: absolute;
+    top: 210px;
+    left: 0px;
+  }
+}
