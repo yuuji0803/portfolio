@@ -1,0 +1,54 @@
+.intro {
+  width: 100vw;
+  height: 100vh;
+}
+.myself {
+  font-size: 1.6rem;
+  position: absolute;
+  right: 5%;
+  top: 25%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 20px;
+  margin-right: 0;
+  text-align: justify;
+}
+
+img[src="プロフィール1.jpg"] {
+  position: absolute;
+  left: 8%;
+  top: 240px;
+  width: 400px;
+  display: inline-block;
+}
+.name,
+.age,
+.from,
+.birth,
+.food,
+.blood,
+.motto {
+  background: linear-gradient(transparent 70%, #ff99ab 95%);
+}
+@media (max-width: 600px) {
+  .myself {
+    font-size: 1rem;
+    position: absolute;
+    top: 410px;
+    left: 40px;
+    margin-top: 0px;
+  }
+  img[src="プロフィール1.jpg"] {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 138px;
+    left: 48px;
+  }
+  .intro {
+    width: 100%;
+  }
+}
